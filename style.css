@@ -31,3 +31,14 @@ header a {
 .imgintro {
     width: 70%;
 }
+
+.menu {
+    display: grid;
+    justify-content: start;
+}
+
+.topicos {
+    color: transparent;
+    background-color: #7ED957;
+    padding: 20px;
+}
