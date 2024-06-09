@@ -42,3 +42,12 @@ header a {
     background-color: #7ED957;
     padding: 20px;
 }
+
+.tec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgtec1 {
+    width: 70%;
+}
