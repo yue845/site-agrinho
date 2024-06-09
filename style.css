@@ -101,6 +101,11 @@ header img {
     width: 55%;
 }
 
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
 footer img {
     width: 20%;
     display: flex;
