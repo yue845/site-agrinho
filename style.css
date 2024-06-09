@@ -1,7 +1,8 @@
 header {
     display: grid;
-    align-items: start;
+    align-items: center;
     grid-template-columns: 60% 40%;
+    background-color: #7ED957;
 }
 
 header a {
