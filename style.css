@@ -107,8 +107,5 @@ header img {
 }
 
 footer img {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    background-color: #7ED957;
+    width: 10%;
 }
