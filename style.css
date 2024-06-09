@@ -58,8 +58,7 @@ header button {
 }
 
 .imgtec2 {
-    display: flex;
-    justify-content: center;
+    width: 70%;
 }
 
 .tec3 {
@@ -68,8 +67,7 @@ header button {
 }
 
 .imgtec3 {
-    display: flex;
-    justify-content: center;
+    width: 70%;
 }
 
 .tec4 {
@@ -78,6 +76,5 @@ header button {
 }
 
 .imgtec4 {
-    display: flex;
-    justify-content: center;
+    width: 70%;
 }
