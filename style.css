@@ -104,6 +104,7 @@ header img {
 .rodape {
     display: flex;
     justify-content: center;
+    background-color: #7ED957;
 }
 
 footer img {
