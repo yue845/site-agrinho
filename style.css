@@ -25,11 +25,11 @@ header button {
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .intro img {
-    width: 55%;
+    width: 45%;
 }
 
 .menu {
