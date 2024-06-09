@@ -14,7 +14,7 @@ header button {
     padding: 10px;
 }
 
-.imglogo {
+.logo img {
     width: 20%;
 }
 
@@ -28,8 +28,8 @@ header button {
     justify-content: center;
 }
 
-.imgintro {
-    width: 70%;
+.intro img {
+    width: 55%;
 }
 
 .menu {
@@ -61,7 +61,7 @@ header button {
     justify-content: center;
 }
 
-.imgtec2 {
+.tec2 img {
     width: 55%;
 }
 
@@ -70,7 +70,7 @@ header button {
     justify-content: center;
 }
 
-.imgtec3 {
+.tec3 img {
     width: 55%;
 }
 
@@ -79,7 +79,7 @@ header button {
     justify-content: center;
 }
 
-.imgtec4 {
+.tec4 img {
     width: 55%;
 }
 
@@ -88,6 +88,6 @@ header button {
     justify-content: center;
 }
 
-.imgtec5 {
+.tec5 img {
     width: 55%;
 }
