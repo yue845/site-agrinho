@@ -1,10 +1,19 @@
 header {
     display: grid;
-    align-items: center;
+    align-items: start;
     grid-template-columns: 60% 40%;
 }
 
-.imglogo{
+header a {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.imglogo {
     width: 20%;
 }
 
+.sites {
+    display: flex;
+    justify-content: space-evenly;
+}
