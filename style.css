@@ -37,6 +37,10 @@ header button {
     justify-content: start;
 }
 
+.menu h3 {
+    color: black;
+}
+
 .topicos {
     color: transparent;
     background-color: #7ED957;
