@@ -51,3 +51,13 @@ header a {
 .imgtec1 {
     width: 70%;
 }
+
+.tec2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgtec2 {
+    display: flex;
+    justify-content: center;
+}
