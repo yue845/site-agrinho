@@ -91,3 +91,12 @@ header button {
 .tec5 img {
     width: 55%;
 }
+
+.tec6 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec6 img {
+    width: 55%;
+}
