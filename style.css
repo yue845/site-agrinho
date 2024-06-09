@@ -9,9 +9,8 @@ header {
     background-color: #7ED957;
 }
 
-header a {
+header button {
     background-color: lightgreen;
-    padding: 10px;
 }
 
 .imglogo {
