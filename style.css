@@ -23,3 +23,11 @@ header a {
     justify-content: space-evenly;
 }
 
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.imgintro {
+    width: 70%;
+}
