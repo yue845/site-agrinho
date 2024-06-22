@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     padding: 12px;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #7ED957;
     color: white;
     position: relative; /* Importante
@@ -28,8 +28,8 @@ header{
 }
 
 header img {
-        width: 20%;
-    }
+    width: 15%;
+}
 
 .texto{
     color: white;
