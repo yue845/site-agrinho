@@ -1,16 +1,9 @@
 @media screen and (min-width: 1024px) {    
-    header {
-        display: grid;
-        align-items: center;
-        grid-template-columns: 50% 50%;
-        background-color: #7ED957;
-    }
-
     header button {
         background-color: lightgreen;
         padding: 10px;
     }
-
+    
     header img {
         width: 20%;
     }
@@ -21,7 +14,21 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: #7ED957;
+}
 
+header button {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+header img {
+    width: 20%;
+}
 
 .sites {
     display: flex;
@@ -52,11 +59,61 @@ body {
     padding: 20px;
 }
 
-#imagens{
+.tec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec1 img {
     width: 55%;
 }
 
-#rodape {
+.tec2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec2 img {
+    width: 55%;
+}
+
+.tec3 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec3 img {
+    width: 55%;
+}
+
+.tec4 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec4 img {
+    width: 55%;
+}
+
+.tec5 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec5 img {
+    width: 55%;
+}
+
+.tec6 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec6 img {
+    width: 55%;
+}
+
+.rodape {
     display: flex;
     justify-content: center;
     background-color: #7ED957;
@@ -64,9 +121,4 @@ body {
 
 footer img {
     width: 10%;
-}
-
-#tec{
-    display: flex;
-    justify-content: center;
 }
