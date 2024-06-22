@@ -17,14 +17,13 @@ body {
 }
 
 header{
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 90% 10%;
     padding: 12px;
-    justify-content: space-between;
     background-color: #7ED957;
     color: white;
-    position: relative; /* Importante
-    para o menu tomar como referência */
+    position: relative; /* Importante para o menu tomar como referência */
+    align-items: center;
 }
 
 header img {
