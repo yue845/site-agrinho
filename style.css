@@ -90,10 +90,6 @@ header div{
     padding: 20px;
 }
 
-#imagens{
-    width: 55%;
-}
-
 .rodape {
     display: flex;
     justify-content: center;
@@ -104,7 +100,56 @@ footer img {
     width: 10%;
 }
 
-#tec{
+.tec1 {
     display: flex;
     justify-content: center;
+}
+
+.tec1 img {
+    width: 55%;
+}
+
+.tec2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec2 img {
+    width: 55%;
+}
+
+.tec3 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec3 img {
+    width: 55%;
+}
+
+.tec4 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec4 img {
+    width: 55%;
+}
+
+.tec5 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec5 img {
+    width: 55%;
+}
+
+.tec6 {
+    display: flex;
+    justify-content: center;
+}
+
+.tec6 img {
+    width: 55%;
 }
