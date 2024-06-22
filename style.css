@@ -1,12 +1,14 @@
-@media screen and (min-width: 1024px) {    
-    header {
-        display: grid;
-        align-items: center;
-        grid-template-columns: 50% 50%;
-        background-color: #7ED957;
+@media screen and (min-width: 1024px) {
+    lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
     }
-
     
+    lista-item:hover{
+        background-color: rgb(119, 51, 51);
+    }
 }
 
 body {
@@ -50,8 +52,9 @@ header img {
 
 #menu{
     display: none;}
+
 .lista-item{
-    padding: 12px 0;
+    padding: 12px 8px;
 }
 
 header button {
