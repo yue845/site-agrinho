@@ -9,11 +9,15 @@
 <body>
     <header> <!--começo do cabeçalho do site-->
             <img src="./logo do site.png" alt="logo RuralTech"> <!--logo do site-->
-        <div class="sites"> <!--leva para links externos-->
-            <button onclick="window.open('https://www.sistemafaep.org.br/agrinho/', '_blank')">Agrinho</button> <!--botão-->
-            <button onclick="window.open('https://www.sistemafaep.org.br/', '_blank')">FAEP/Senar-PR</button> <!--botão-->
-            <button onclick="window.open('https://www.cnabrasil.org.br/', '_blank')">CNA Brasil</button> <!--botão-->
-            <button onclick="window.open('https://www.cep.pr.gov.br/', '_blank')">CEP PR</button> <!--botão-->
+            <input type="checkbox" id="menu" class="caixa">
+            <label for="menu">
+                <h3 class="texto">MENU</h3>
+            </label>
+        <div class="lista"> <!--leva para links externos-->
+            <button class="lista-item" onclick="window.open('https://www.sistemafaep.org.br/agrinho/', '_blank')">Agrinho</button> <!--botão-->
+            <button class="lista-item" onclick="window.open('https://www.sistemafaep.org.br/', '_blank')">FAEP/Senar-PR</button> <!--botão-->
+            <button class="lista-item" onclick="window.open('https://www.cnabrasil.org.br/', '_blank')">CNA Brasil</button> <!--botão-->
+            <button class="lista-item" onclick="window.open('https://www.cep.pr.gov.br/', '_blank')">CEP PR</button> <!--botão-->
         </div>
     </header> <!--fim do cabeçalho do site-->
     <section> <!--introdução-->
@@ -26,8 +30,8 @@
             <img src="./img 2 intro.webp" alt="milho e lavoura digital">
         </div>
     </section> <!--fim da introdução-->
-    <section> <!--menu de navegação que leva para diferentes partes do mesmo site-->
-        <div class="menu">
+    <section> <!--tabela de navegação que leva para diferentes partes do mesmo site-->
+        <div class="tabela">
             <ul class="topicos">
                 <h3>Menu de conteúdos</h3>
                 <li><a href="#tec1">Internet das Coisas (IoT)</a></li> <!--opção clicável-->
@@ -39,9 +43,9 @@
             </ul>
         </div> <!--final do menu de navegação-->
     </section> <!--primeiro tópico-->
-    <section id="tec1">
+    <section id="tec1" class="tec">
         <h2>Internet das Coisas (IoT)</h2>
-        <div class="tec1">
+        <div class="imagens">
             <img src="./img iot.jpg" alt="internet das coisas">
         </div>
         <div>
@@ -55,9 +59,9 @@
             <li>Economia de água e aumento da produtividade das culturas.</li>
         </div>
     </section> <!--final primeiro tópico-->
-    <section id="tec2"> <!--segundo tópico-->
+    <section id="tec2" class="tec"> <!--segundo tópico-->
         <h2>Sensores Remotos e Drones</h2>
-        <div class="tec2">
+        <div class="imagens">
             <img src="./img sensores e drones.jpg" alt="imagem ilustrativa de sensores e drones">
         </div>
         <div>
@@ -73,9 +77,9 @@
         </div>
     </section> <!--final segundo tópico-->
 
-    <section id="tec3"> <!--terceiro tópico-->
+    <section id="tec3" class="tec"> <!--terceiro tópico-->
         <h2>Análise de Dados e Inteligência Artificial (IA)</h2>
-        <div class="tec3">
+        <div class="imagens">
             <img src="./img ia.jpg" alt="inteligencia artificial">
         </div>
         <div>
@@ -90,9 +94,9 @@
             <li>Gestão eficiente dos recursos.</li>
         </div>
     </section> <!--final terceiro tópico-->
-    <section id="tec4"> <!--quarto tópico-->
+    <section id="tec4" class="tec"> <!--quarto tópico-->
         <h2>Tecnologias de Automação e Robótica</h2>
-        <div class="tec4">
+        <div class="imagens">
             <img src="./img robotica.jpg" alt="homem operando robô">
         </div>
         <div>
@@ -105,9 +109,9 @@
             <li>Melhoria da segurança dos trabalhadores.</li>
         </div>
     </section> <!--final quarto tópico-->
-    <section id="tec5"> <!--quinto tópico-->
+    <section id="tec5" class="tec"> <!--quinto tópico-->
         <h2>Agricultura de Precisão</h2>
-        <div class="tec5">
+        <div class="imagens">
             <img src="./img agricultura de precisao.jpg" alt="tablet com informações de agricultura">
         </div>
         <div>
@@ -122,9 +126,9 @@
             <li>Planejamento e execução de estratégias de rotação de culturas e manejo integrado de pragas.</li>
         </div>
     </section> <!--final terceiro tópico-->
-    <section id="tec6"> <!--sexto tópico-->
+    <section id="tec6" class="tec"> <!--sexto tópico-->
         <h2>Energia Renovável</h2>
-        <div class="tec6">
+        <div class="imagens">
             <img src="./img energia renovavel.jpg" alt="produção de energia renovável por turbinas eólicas e painéis solares">
         </div>
         <div>

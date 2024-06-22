@@ -1,9 +1,11 @@
 @media screen and (min-width: 1024px) {    
-    header button {
-        background-color: lightgreen;
-        padding: 10px;
+    header {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50% 50%;
+        background-color: #7ED957;
     }
-    
+
     header img {
         width: 20%;
     }
@@ -14,20 +16,45 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-    display: grid;
+header{
+    display: flex;
     align-items: center;
-    grid-template-columns: 50% 50%;
+    padding: 12px;
+    justify-content: space-around;
     background-color: #7ED957;
+    color: white;
+    position: relative; /* Importante
+    para o menu tomar como referência */
+}
+
+.texto{
+    color: white;
+}
+
+.lista{
+    display: none;
+    position: absolute; /* Aqui está definindo onde o menu irá aparecer */
+    top: 100%;
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px.0;
+    text-align: center;
+}
+/* Fazendo o menu aparecer quando clicado */
+.caixa:checked ~ .lista{
+    display: block;
+}
+/* Desaparecendo a caixa de selecão */
+
+#menu{
+    display: none;}
+.lista-item{
+    padding: 12px 0;
 }
 
 header button {
     background-color: lightgreen;
     padding: 10px;
-}
-
-header img {
-    width: 20%;
 }
 
 .sites {
@@ -44,72 +71,22 @@ header img {
     width: 45%;
 }
 
-.menu {
+.tabela {
     display: grid;
     justify-content: start;
 }
 
-.menu h3 {
+.tabela h3 {
     color: black;
 }
 
 .topicos {
-    color: transparent;
+    list-style: none;
     background-color: #7ED957;
     padding: 20px;
 }
 
-.tec1 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec1 img {
-    width: 55%;
-}
-
-.tec2 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec2 img {
-    width: 55%;
-}
-
-.tec3 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec3 img {
-    width: 55%;
-}
-
-.tec4 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec4 img {
-    width: 55%;
-}
-
-.tec5 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec5 img {
-    width: 55%;
-}
-
-.tec6 {
-    display: flex;
-    justify-content: center;
-}
-
-.tec6 img {
+#imagens{
     width: 55%;
 }
 
@@ -121,4 +98,9 @@ header img {
 
 footer img {
     width: 10%;
+}
+
+#tec{
+    display: flex;
+    justify-content: center;
 }
