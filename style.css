@@ -7,7 +7,7 @@
     }
     
     lista-item:hover{
-        background-color: #7ED957;
+        background-color: lightgreen;
     }
 }
 
@@ -47,6 +47,7 @@ header div{
     text-align: center;
 }
 /* Fazendo o menu aparecer quando clicado */
+
 .caixa:checked ~ .lista{
     display: block;
 }
