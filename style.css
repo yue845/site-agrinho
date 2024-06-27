@@ -18,7 +18,7 @@ body {
 
 header{
     display: grid;
-    grid-template-columns: 90% 10%;
+    grid-template-columns: 80% 15% 5%;
     padding: 12px;
     background-color: #7ED957;
     color: white;
